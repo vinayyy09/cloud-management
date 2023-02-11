@@ -11,9 +11,7 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl tracking-widest font-bold text-[#dc3535]">
-          GROWW
-        </h1>
+        <h1 className="w-full text-3xl font-black text-[#dc3535]">GROWW</h1>
         <p className="py-4">
           Let’s start building your tomorrow, today Get started for free Contact
         </p>
@@ -62,6 +60,7 @@ const Footer = () => {
             <li className="py-2 text-sm">Claim</li>
             <li className="py-2 text-sm">Policy</li>
             <li className="py-2 text-sm">Terms</li>
+            <li className="py-2 text-sm">Complaints</li>
           </ul>
         </div>
       </div>
